@@ -7,6 +7,10 @@ If your startup project contains a ElectronNET.API Nuget package, then just pres
 This is a preview version, please share your feedback to the project github repo.
 
 
+You can install this VS extension [here](https://marketplace.visualstudio.com/items?itemName=lsoft.ElectronAppDebugger).
+
+If you are enjoying it please consider give it a ★ in the github repo and ★★★★★ rating on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=lsoft.ElectronAppDebugger).
+
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
   <a href="https://raw.githubusercontent.com/lsoft/ElectronAppDebugger/main/debug_electron_app.gif" target="_blank">
