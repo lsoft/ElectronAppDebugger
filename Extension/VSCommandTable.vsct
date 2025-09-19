@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+  <Extern href="VSDbgCmd.h"/>
+  <Extern href="VSDebugGuids.h"/>
+  <Include href="KnownImageIds.vsct"/>
+  <Include href="VSGlobals.vsct"/>
+
+  <Commands package="Vsix">
+    <!--
+    <Groups>
+      <Group guid="Vsix" id="VsixMenuGroup" priority="0x0600">
+          <Parent guid="guidVSDebugGroup" id="IDM_DEBUG_WINDOWS"/>
+      </Group>
+    </Groups>
+    -->
+
+    <Buttons>
+      <Button guid="Vsix" id="StartDebugCommand" priority="0x0100" type="Button">
+        <Parent guid="guidVSDebugGroup" id="IDG_EXECUTION" />
+        <Icon guid="ImageCatalogGuid" id="DebugCheckedTests" />
+        <CommandFlag>IconIsMoniker</CommandFlag>
+        <Strings>
+          <ButtonText>Start Debugging Electron.Net application...</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="Vsix" value="{571092d1-a22c-47ab-896a-a011adabb72b}">
+      <!--<IDSymbol name="VsixMenuGroup" value="0x0001" />-->
+      <IDSymbol name="StartDebugCommand" value="0x0100" />
+    </GuidSymbol>
+
+  </Symbols>
+</CommandTable>
