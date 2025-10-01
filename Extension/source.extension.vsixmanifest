@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="ElectronAppDebugger.d63e2777-d697-480f-839a-815d9f30a2c5" Version="1.0.0" Language="en-US" Publisher="lsoft" />
+        <Identity Id="ElectronAppDebugger.d63e2777-d697-480f-839a-815d9f30a2c5" Version="1.0.1" Language="en-US" Publisher="lsoft" />
         <DisplayName>Electron.NET Attach Debugger Extension</DisplayName>
         <Description xml:space="preserve">Just press F5 to debug your Electron.NET application. No need to switch to console, press `electronize start`, and then switch back to VS and attach. This is a Visual Studio extension.</Description>
         <MoreInfo>https://github.com/lsoft/ElectronAppDebugger</MoreInfo>
